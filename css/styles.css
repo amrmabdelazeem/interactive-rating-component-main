@@ -14,6 +14,7 @@
 
 body{
     background-color: var(--very-dark-blue);
+    min-width: 330px;
 }
 
 p{
@@ -27,9 +28,6 @@ h1{
     margin-bottom: 1rem;
 }
 
-main{
-
-}
 
 .container{
     background-color: var(--dark-blue);
@@ -67,25 +65,32 @@ main{
     height: .9rem;
     margin-right: 1rem;
     border-radius: 100%;
-    background-color: #ffffff;
+    color: var(--medium-grey);
     padding: 13px;
     background-color: hsl(213, 19%, 22%);
+    cursor: pointer;
 }
 
-a{
-    text-decoration: none;
-    font-size: 15px;
-    color: var(--light-grey);
-}
 
 .btn button{
     background-color: hsl(25, 97%, 53%);
     border-radius: 50ex;
-    width: 90%;
+    width: 95%;
     padding: .7rem;
     color: #ffffff;
     border: none;
     letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.btn button:hover{
+    background-color: #ffffff;
+    color: hsl(25, 97%, 53%);
+}
+
+.node:hover, a:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: #ffffff;
 }
 
 /* Thank you page */
@@ -125,4 +130,46 @@ h2{
 
 .card-content p{
     margin-bottom: 1rem;
+}
+
+.clicked{
+    background-color: hsl(217, 12%, 63%);
+    color: #ffffff;
+    padding-top: 1rem;
+}
+
+small{
+    color: red;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+@media screen and (min-width:1024px) {
+    .container{
+        width: 30%;
+        margin-left: 20rem;
+    }
+
+    .redirect{
+        display: none;
+        width: 30%;
+        margin-left: 20rem;
+    }
+    
+}
+
+@media screen and (min-width:1440px) {
+    .container{
+        width: 21%;
+        margin-left: 40%;
+        margin-top: 10rem;
+    }
+
+    .redirect{
+        width: 21%;
+        margin-left: 40%;
+        display: none;
+    }
+
+    
 }
