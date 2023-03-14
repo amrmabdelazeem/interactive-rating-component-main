@@ -35,8 +35,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [FrontendMentor](https://www.frontendmentor.io/solutions/interactive-rating-component-with-dom-and-jquery-3ePZfsr3H-)
+
+- Live Site URL: [Github](https://amrmabdelazeem.github.io/interactive-rating-component-main/)
 
 ## My process
 - Built the HTML structure first
